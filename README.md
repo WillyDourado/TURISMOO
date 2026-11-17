@@ -2,6 +2,9 @@
 
 Site acadêmico de ADS sobre turismo, sustentabilidade e acessibilidade.
 
+- [Repositório principal](https://github.com/WillyDourado/TURISMOO)
+- [Site publicado](https://willydourado.github.io/TURISMOO/)
+
 ## Executar
 
 Abra index.html no navegador. Não há instalação, compilação ou dependências locais. Os recursos multimídia externos precisam de internet. O formulário simula o envio e não transmite nem armazena os dados.
@@ -15,7 +18,7 @@ Abra index.html no navegador. Não há instalação, compilação ou dependênci
 
 ## GitHub Pages
 
-Envie o conteúdo deste pacote para a raiz do repositório. Em Settings > Pages, escolha Deploy from a branch, main e /(root). Consulte docs/guia_github.txt para o passo a passo e a colaboração com o grupo.
+O GitHub Pages publica automaticamente a partir da raiz da branch `main` de `WillyDourado/TURISMOO`. Consulte `docs/guia_github.txt` para colaborar com o grupo e atualizar o site.
 
 ## Conteúdo
 

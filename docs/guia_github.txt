@@ -6,10 +6,9 @@ O site usa HTML, CSS e JavaScript simples, sem instalação ou compilação.
 As imagens, o áudio, o vídeo e o mapa precisam de internet.
 O formulário apenas simula o envio, sem enviar ou armazenar informações.
 
-2. CRIAR O REPOSITÓRIO
-Entre em https://github.com e acesse o botão + > New repository.
-Use um nome como turismo-consciente. Escolha Public para usar GitHub Pages
-com uma conta gratuita. Clique em Create repository.
+2. USAR O REPOSITÓRIO PRINCIPAL
+Use https://github.com/WillyDourado/TURISMOO para consultar o código
+e colaborar com o grupo. A branch principal é main.
 
 3. ENVIAR O SITE
 No repositório vazio, clique em uploading an existing file. Se já houver
@@ -29,16 +28,14 @@ Em Build and deployment, selecione Deploy from a branch.
 Escolha a branch main (ou a branch que contém seus arquivos).
 Escolha /(root), não /docs: neste pacote o index.html fica na raiz.
 Clique em Save e aguarde a conclusão da publicação.
-O endereço ficará normalmente assim:
-https://SEU-USUARIO.github.io/turismo-consciente/
-Substitua SEU-USUARIO pelo seu usuário e turismo-consciente pelo nome
-exato escolhido para o repositório. O endereço real aparece em Pages.
+Endereço publicado do projeto:
+https://willydourado.github.io/TURISMOO/
 Se houver erro, veja a aba Actions e confira se index.html está na raiz.
 
 5. COMPARTILHAR COM O GRUPO
-Para visualizar o site: compartilhe o link exibido em Settings > Pages.
+Para visualizar o site: https://willydourado.github.io/TURISMOO/
 Para consultar o código: compartilhe o link do repositório, no formato
-https://github.com/SEU-USUARIO/turismo-consciente
+https://github.com/WillyDourado/TURISMOO
 Para permitir edição: abra Settings > Collaborators > Add people.
 Pesquise o usuário de cada colega e envie o convite. Cada colega precisa
 aceitar o convite para ter acesso de colaboração.

@@ -1,10 +1,10 @@
-/* Paleta: floresta, areia e água. Altere as cores aqui. */
+/* Paleta: azul oceano, areia clara e terracota. */
 :root {
-  --verde: #18594b;
-  --verde-escuro: #123e35;
-  --areia: #f5f1e8;
-  --azul: #17647a;
-  --texto: #263b35;
+  --oceano: #164867;
+  --oceano-escuro: #132f4b;
+  --areia: #f7f3eb;
+  --terracota: #9c432d;
+  --texto: #233449;
 }
 
 /* Estilos gerais */
@@ -23,9 +23,8 @@ body {
 }
 
 header {
-  background: var(--verde);
+  background: linear-gradient(125deg, var(--oceano-escuro), var(--oceano));
   color: #fff;
-  padding: 22px;
 }
 
 nav a {
@@ -50,7 +49,7 @@ main {
 }
 
 .hero {
-  background: #dcefe9;
+  background: #e1edf5;
   padding: 35px;
   border-radius: 12px;
   margin-bottom: 25px;
@@ -79,7 +78,7 @@ article {
 }
 
 .card {
-  border: 1px solid #d4e2dd;
+  border: 1px solid #d3e0e9;
   padding: 18px;
   border-radius: 10px;
   margin-bottom: 0;
@@ -93,7 +92,7 @@ h3 {
 
 h2,
 h3 {
-  color: var(--verde);
+  color: var(--oceano);
 }
 
 p + p,
@@ -126,7 +125,7 @@ iframe {
 }
 
 iframe {
-  border: 1px solid #c9d8d3;
+  border: 1px solid #c4d3de;
 }
 
 .table-wrapper {
@@ -149,13 +148,13 @@ caption {
 
 th,
 td {
-  border: 1px solid #c9d8d3;
+  border: 1px solid #c4d3de;
   padding: 10px;
   text-align: left;
 }
 
 th {
-  background: #dcefe9;
+  background: #e1edf5;
 }
 
 form {
@@ -175,7 +174,7 @@ textarea {
   width: 100%;
   min-width: 0;
   padding: 10px;
-  border: 1px solid #aebfba;
+  border: 1px solid #74899a;
   border-radius: 6px;
   font-size: 16px;
 }
@@ -185,7 +184,7 @@ textarea {
 }
 
 button {
-  background: var(--verde);
+  background: var(--oceano);
   color: #fff;
   border: 0;
   padding: 12px;
@@ -194,11 +193,11 @@ button {
 }
 
 button:hover {
-  background: #125448;
+  background: #103955;
 }
 
 footer {
-  background: var(--verde-escuro);
+  background: var(--oceano-escuro);
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -225,7 +224,7 @@ header :focus-visible {
   left: 8px;
   transform: translateY(-200%);
   background: #fff;
-  color: #173c35;
+  color: #132f4b;
   padding: 10px 16px;
   z-index: 10;
 }
@@ -235,7 +234,7 @@ header :focus-visible {
 }
 
 #status-formulario {
-  color: #125448;
+  color: #103955;
   font-weight: bold;
 }
 
@@ -253,18 +252,19 @@ header :focus-visible {
 
 /* Acabamento visual com regras simples, sem bibliotecas. */
 header {
-  border-bottom: 5px solid #d7b66f;
+  border-bottom: 5px solid #d28a65;
   text-align: center;
   padding: 30px 18px 20px;
 }
 
 header h1 {
   font-size: clamp(1.8rem, 4vw, 2.6rem);
-  letter-spacing: -1px;
+  font-family: Georgia, serif;
+  letter-spacing: -0.02em;
 }
 
 header > p {
-  color: #e1f0e8;
+  color: #e5f0f8;
   margin-bottom: 18px;
 }
 
@@ -280,28 +280,30 @@ nav a {
 
 nav a:hover,
 nav a[aria-current="page"] {
-  background: #ffffff1f;
+  background: #ffffff26;
 }
 
 section,
 .hero {
-  border: 1px solid #dce4dd;
-  box-shadow: 0 4px 16px #123e3508;
+  border: 1px solid #d8e2ea;
+  box-shadow: 0 4px 16px #132f4b14;
 }
 
 .hero {
-  background: linear-gradient(120deg, #dcefe3, #e3f0f3);
-  border-left: 6px solid var(--verde);
+  background: linear-gradient(120deg, #dcecf5, #faf0df);
+  border-left: 6px solid var(--terracota);
   padding: 40px 30px;
 }
 
 .hero h2 {
+  font-family: Georgia, serif;
+  line-height: 1.2;
   font-size: clamp(1.7rem, 4vw, 2.4rem);
 }
 
 section > h2 {
   padding-bottom: 10px;
-  border-bottom: 2px solid #eee4cc;
+  border-bottom: 2px solid #eadbc9;
   margin-bottom: 16px;
 }
 
@@ -311,16 +313,16 @@ section > ul {
 }
 
 .card {
-  background: #fcfdfb;
-  border-top: 4px solid var(--verde);
+  background: #fbfcff;
+  border-top: 4px solid var(--oceano);
 }
 
 .card:nth-child(2) {
-  border-top-color: var(--azul);
+  border-top-color: var(--terracota);
 }
 
 .card:nth-child(3) {
-  border-top-color: #96702e;
+  border-top-color: #9a692a;
 }
 
 .card p + p {
@@ -338,24 +340,28 @@ section > ul {
   display: inline-block;
   padding: 10px 18px;
   border-radius: 6px;
-  background: var(--verde);
+  background: var(--oceano);
   color: #fff;
   font-weight: bold;
   text-decoration: none;
 }
 
 .button-link:hover {
-  background: var(--verde-escuro);
+  background: var(--oceano-escuro);
 }
 
 .button-link.secondary {
-  background: var(--azul);
+  background: var(--terracota);
+}
+
+.button-link.secondary:hover {
+  background: #7a3121;
 }
 
 .tag {
   display: inline-block;
-  background: #e6efe7;
-  color: var(--verde-escuro);
+  background: #e2edf7;
+  color: var(--oceano-escuro);
   border-radius: 20px;
   padding: 3px 10px;
   margin-bottom: 10px;
@@ -365,9 +371,9 @@ section > ul {
 
 figure {
   padding: 10px;
-  border: 1px solid #dce4dd;
+  border: 1px solid #d8e2ea;
   border-radius: 10px;
-  background: #fcfdfb;
+  background: #fbfcff;
 }
 
 figure img {
@@ -377,14 +383,14 @@ figure img {
 }
 
 details {
-  border: 1px solid #dce4dd;
+  border: 1px solid #d8e2ea;
   border-radius: 6px;
   padding: 14px;
   margin-bottom: 12px;
 }
 
 summary {
-  color: var(--verde-escuro);
+  color: var(--oceano-escuro);
   cursor: pointer;
   font-weight: bold;
 }
